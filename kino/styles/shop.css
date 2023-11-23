@@ -1,0 +1,29 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card {
+    background-color: rgb(208, 216, 241);
+    width: calc(100% / 2.5);
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.card img{
+    border-radius: 10px;
+    height: 60%;
+    width: 80%;
+}
+.card h3{
+    text-align: center;
+    color: purple;
+}
+.card span {
+    color: purple;
+    text-align: justify;
+    display: block;
+    padding: 12px;
+}

@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    margin:0 0 5px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+#gameboard {
+    width: 600px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.score {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.table-text {
+    margin: 0;
+    font-size: 25px;
+}
+
+.player {
+    margin: 3px 0 3px 15px;
+    font-size: 25px;
+}
+
+body > p {
+    font-size: 30px;
+    margin: 5px;
+}
+
+#info-display {
+    color: red;
+}
+
+.square {
+    height: 75px;
+    width: 75px;
+    position: relative;
+}
+
+.square svg {
+    height: 65px;
+    width: 65px;
+    margin: 5px;
+    position: relative;
+    z-index: -9;
+}
+
+path {
+    position: relative;
+    z-index: -10;
+}
+
+.piece {
+    position: relative;
+    z-index: 1;
+}
+
+.beige {
+    background-color: rgb(220, 171, 80);
+}
+
+.brown{
+    background-color: rgb(169, 43, 43);
+}
+
+.black {
+    fill: black;
+}
+
+.white {
+    fill: white;
+}
